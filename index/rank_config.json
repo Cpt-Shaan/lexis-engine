@@ -1,0 +1,12 @@
+{
+  "stem": true,
+  "stop": true,
+  "doc_tf": "l",
+  "doc_idf": "n",
+  "doc_norm": "c",
+  "slope": 0.3,
+  "q_tf": "l",
+  "q_idf": "t",
+  "zones": true,
+  "g": 0.1
+}

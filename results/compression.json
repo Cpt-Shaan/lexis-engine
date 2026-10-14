@@ -1,0 +1,63 @@
+{
+  "postings": {
+    "docids": {
+      "all": {
+        "uncompressed": 3289332,
+        "gaps": 896883,
+        "vb": 982728,
+        "gamma": 901746
+      },
+      "top100": {
+        "uncompressed": 1034908,
+        "gaps": 186897,
+        "vb": 258737,
+        "gamma": 108335
+      },
+      "rare10k": {
+        "uncompressed": 40000,
+        "gaps": 29726,
+        "vb": 19863,
+        "gamma": 35777
+      }
+    },
+    "positions": {
+      "all": {
+        "uncompressed": 5872616,
+        "gaps": 1899474,
+        "vb": 1749536,
+        "gamma": 1957223
+      },
+      "top100": {
+        "uncompressed": 2724108,
+        "gaps": 897136,
+        "vb": 745761,
+        "gamma": 814321
+      },
+      "rare10k": {
+        "uncompressed": 53624,
+        "gaps": 24508,
+        "vb": 16884,
+        "gamma": 22616
+      }
+    }
+  },
+  "counts": {
+    "docids": {
+      "all": 822333,
+      "top100": 258727,
+      "rare10k": 10000
+    },
+    "positions": {
+      "all": 1468154,
+      "top100": 681027,
+      "rare10k": 13406
+    }
+  },
+  "files": {
+    "dict.bin": 305404,
+    "postings_pos.bin": 3552920,
+    "postings_doc.bin": 2627396,
+    "docs.tsv": 231762
+  },
+  "corpus_bytes": 8249557
+}

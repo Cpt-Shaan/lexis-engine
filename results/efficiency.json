@@ -1,0 +1,101 @@
+[
+  {
+    "method": "Exhaustive TAAT (all postings of all query terms)",
+    "overlap@10": 1.0,
+    "docs_scored": 1982.3,
+    "latency_ms": 0.4101275009816163,
+    "latency_p50": 0.4046000030939467,
+    "P@10": 0.75375,
+    "NDCG@10": 0.7140212956995581
+  },
+  {
+    "method": "Index elimination: idf \u2265 0.5, \u2265 50% of terms",
+    "overlap@10": 0.975,
+    "docs_scored": 298.0,
+    "latency_ms": 0.3184975004842272,
+    "latency_p50": 0.2760499992291443,
+    "P@10": 0.7525000000000001,
+    "NDCG@10": 0.7166585074374217
+  },
+  {
+    "method": "Index elimination: idf \u2265 1.0, \u2265 50% of terms",
+    "overlap@10": 0.8087499999999999,
+    "docs_scored": 207.675,
+    "latency_ms": 0.2830449995599338,
+    "latency_p50": 0.26169999182457104,
+    "P@10": 0.71875,
+    "NDCG@10": 0.6611791523075741
+  },
+  {
+    "method": "Index elimination: idf \u2265 0.5, all terms",
+    "overlap@10": 0.93125,
+    "docs_scored": 1100.1875,
+    "latency_ms": 0.5936212495726068,
+    "latency_p50": 0.4974000039510429,
+    "P@10": 0.7387499999999999,
+    "NDCG@10": 0.7073008076707611
+  },
+  {
+    "method": "Champion lists r = 20",
+    "overlap@10": 0.7325,
+    "docs_scored": 75.6,
+    "latency_ms": 0.2601100000902079,
+    "latency_p50": 0.25284999719588086,
+    "P@10": 0.7125000000000001,
+    "NDCG@10": 0.6615471564404132
+  },
+  {
+    "method": "Champion lists r = 50",
+    "overlap@10": 0.93,
+    "docs_scored": 176.875,
+    "latency_ms": 0.2897525007938384,
+    "latency_p50": 0.27350000164005905,
+    "P@10": 0.7474999999999999,
+    "NDCG@10": 0.7046744061684722
+  },
+  {
+    "method": "Champion lists r = 100",
+    "overlap@10": 0.975,
+    "docs_scored": 321.4,
+    "latency_ms": 0.3070562501306995,
+    "latency_p50": 0.30324999534059316,
+    "P@10": 0.74875,
+    "NDCG@10": 0.7088627708684804
+  },
+  {
+    "method": "Cluster pruning \u221aN leaders, b\u2081 = 1, b\u2082 = 1",
+    "overlap@10": 0.21625,
+    "docs_scored": 191.2125,
+    "latency_ms": 0.2855324999472941,
+    "latency_p50": 0.2688000022317283,
+    "P@10": 0.34375,
+    "NDCG@10": 0.3184847984697715
+  },
+  {
+    "method": "Cluster pruning \u221aN leaders, b\u2081 = 1, b\u2082 = 5",
+    "overlap@10": 0.44625000000000004,
+    "docs_scored": 554.2875,
+    "latency_ms": 0.3823899995040847,
+    "latency_p50": 0.37325000448618084,
+    "P@10": 0.54625,
+    "NDCG@10": 0.5314501015855284
+  },
+  {
+    "method": "Cluster pruning \u221aN leaders, b\u2081 = 3, b\u2082 = 3",
+    "overlap@10": 0.5125,
+    "docs_scored": 865.025,
+    "latency_ms": 0.4656862500269199,
+    "latency_p50": 0.42660000326577574,
+    "P@10": 0.5900000000000001,
+    "NDCG@10": 0.5595401591528235
+  },
+  {
+    "method": "Cluster pruning \u221aN leaders, b\u2081 = 3, b\u2082 = 10",
+    "overlap@10": 0.7737499999999999,
+    "docs_scored": 2626.2,
+    "latency_ms": 1.0579362493444933,
+    "latency_p50": 1.0024999937741086,
+    "P@10": 0.70875,
+    "NDCG@10": 0.6611935823940176
+  }
+]

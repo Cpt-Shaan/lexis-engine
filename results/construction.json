@@ -1,0 +1,872 @@
+{
+  "budgets": [
+    {
+      "blocks": 145,
+      "bytes_written": 13417894,
+      "sim_peak": 262843,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 250000,
+      "invert_s": 3.703304199996637,
+      "merge_s": 3.8365354999987176,
+      "total_s": 7.539839699995355,
+      "run_bytes": 6700054,
+      "final_bytes": 6717840,
+      "peak_traced": 17378748
+    },
+    {
+      "blocks": 71,
+      "bytes_written": 22323059,
+      "sim_peak": 257520,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 250000,
+      "invert_s": 2.6148766000114847,
+      "merge_s": 4.766535399990971,
+      "total_s": 7.381412000002456,
+      "run_bytes": 11745232,
+      "final_bytes": 6717839,
+      "peak_traced": 29785815
+    },
+    {
+      "blocks": 64,
+      "bytes_written": 12562731,
+      "sim_peak": 508603,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 500000,
+      "invert_s": 3.868986000001314,
+      "merge_s": 2.8781614000035916,
+      "total_s": 6.747147400004906,
+      "run_bytes": 5844891,
+      "final_bytes": 6717840,
+      "peak_traced": 11809322
+    },
+    {
+      "blocks": 36,
+      "bytes_written": 22323059,
+      "sim_peak": 509724,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 500000,
+      "invert_s": 2.5908271000080276,
+      "merge_s": 4.291307799998322,
+      "total_s": 6.882134900006349,
+      "run_bytes": 11745232,
+      "final_bytes": 6717839,
+      "peak_traced": 22445504
+    },
+    {
+      "blocks": 29,
+      "bytes_written": 11895207,
+      "sim_peak": 1006294,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 1000000,
+      "invert_s": 3.5303974999987986,
+      "merge_s": 2.3467063999996753,
+      "total_s": 5.877103899998474,
+      "run_bytes": 5177366,
+      "final_bytes": 6717841,
+      "peak_traced": 9451027
+    },
+    {
+      "blocks": 18,
+      "bytes_written": 22323060,
+      "sim_peak": 1007808,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 1000000,
+      "invert_s": 2.7425535999936983,
+      "merge_s": 3.9218665000080364,
+      "total_s": 6.664420100001735,
+      "run_bytes": 11745232,
+      "final_bytes": 6717840,
+      "peak_traced": 15297918
+    },
+    {
+      "blocks": 13,
+      "bytes_written": 11405341,
+      "sim_peak": 2002242,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 2000000,
+      "invert_s": 3.423892300008447,
+      "merge_s": 2.1703770000021905,
+      "total_s": 5.594269300010637,
+      "run_bytes": 4687500,
+      "final_bytes": 6717841,
+      "peak_traced": 14752742
+    },
+    {
+      "blocks": 9,
+      "bytes_written": 22323060,
+      "sim_peak": 2001660,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 2000000,
+      "invert_s": 2.233049200003734,
+      "merge_s": 3.640307900001062,
+      "total_s": 5.873357100004796,
+      "run_bytes": 11745232,
+      "final_bytes": 6717840,
+      "peak_traced": 14093494
+    },
+    {
+      "blocks": 6,
+      "bytes_written": 11045044,
+      "sim_peak": 4002832,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 4000000,
+      "invert_s": 3.258350899996003,
+      "merge_s": 1.8978409999981523,
+      "total_s": 5.156191899994155,
+      "run_bytes": 4327203,
+      "final_bytes": 6717841,
+      "peak_traced": 28067181
+    },
+    {
+      "blocks": 5,
+      "bytes_written": 22323060,
+      "sim_peak": 4001628,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 4000000,
+      "invert_s": 2.2237358999991557,
+      "merge_s": 3.569774999996298,
+      "total_s": 5.793510899995454,
+      "run_bytes": 11745232,
+      "final_bytes": 6717840,
+      "peak_traced": 22328924
+    },
+    {
+      "blocks": 3,
+      "bytes_written": 10814070,
+      "sim_peak": 8002368,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 8000000,
+      "invert_s": 3.3985393999901135,
+      "merge_s": 1.7645627000019886,
+      "total_s": 5.163102099992102,
+      "run_bytes": 4096229,
+      "final_bytes": 6717841,
+      "peak_traced": 54876501
+    },
+    {
+      "blocks": 3,
+      "bytes_written": 22323060,
+      "sim_peak": 8001348,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 8000000,
+      "invert_s": 2.251705000002403,
+      "merge_s": 3.451511899998877,
+      "total_s": 5.70321690000128,
+      "run_bytes": 11745232,
+      "final_bytes": 6717840,
+      "peak_traced": 38891393
+    },
+    {
+      "blocks": 1,
+      "bytes_written": 10577830,
+      "sim_peak": 20725446,
+      "tokens": 1468154,
+      "algorithm": "SPIMI",
+      "budget": 32000000,
+      "invert_s": 3.725171300000511,
+      "merge_s": 1.6776685000077123,
+      "total_s": 5.402839800008223,
+      "run_bytes": 3859988,
+      "final_bytes": 6717842,
+      "peak_traced": 142895486
+    },
+    {
+      "blocks": 1,
+      "bytes_written": 22323061,
+      "sim_peak": 17617848,
+      "tokens": 1468154,
+      "algorithm": "BSBI",
+      "budget": 32000000,
+      "invert_s": 2.277912000005017,
+      "merge_s": 3.075526100001298,
+      "total_s": 5.353438100006315,
+      "run_bytes": 11745232,
+      "final_bytes": 6717841,
+      "peak_traced": 76905910
+    }
+  ],
+  "parallel": {
+    "1000000": {
+      "sequential": [
+        {
+          "blocks": 29,
+          "bytes_written": 11895207,
+          "sim_peak": 1006294,
+          "tokens": 1468154,
+          "algorithm": "SPIMI",
+          "budget": 1000000,
+          "invert_s": 3.2334862999996403,
+          "merge_s": 2.1558371000137413,
+          "total_s": 5.389323400013382,
+          "run_bytes": 5177366,
+          "final_bytes": 6717841
+        },
+        {
+          "blocks": 29,
+          "bytes_written": 11895207,
+          "sim_peak": 1006294,
+          "tokens": 1468154,
+          "algorithm": "SPIMI",
+          "budget": 1000000,
+          "invert_s": 3.1403501000022516,
+          "merge_s": 2.207670399991912,
+          "total_s": 5.348020499994163,
+          "run_bytes": 5177366,
+          "final_bytes": 6717841
+        },
+        {
+          "blocks": 29,
+          "bytes_written": 11895207,
+          "sim_peak": 1006294,
+          "tokens": 1468154,
+          "algorithm": "SPIMI",
+          "budget": 1000000,
+          "invert_s": 3.138222499997937,
+          "merge_s": 2.358462700009113,
+          "total_s": 5.49668520000705,
+          "run_bytes": 5177366,
+          "final_bytes": 6717841
+        }
+      ],
+      "2": [
+        {
+          "algorithm": "SPIMI x2 shards",
+          "budget": 1000000,
+          "blocks": 29,
+          "run_bytes": 5190122,
+          "bytes_written": 18088291,
+          "startup_s": 0.3441817999992054,
+          "invert_s": 2.167510699990089,
+          "merge_s": 1.7773145000101067,
+          "reduce_s": 1.680293299999903,
+          "concat_s": 0.09702120001020376,
+          "total_s": 3.9448252000001958,
+          "shards": [
+            {
+              "blocks": 14,
+              "bytes_written": 2539779,
+              "sim_peak": 1006294,
+              "tokens": 720795,
+              "shard": 0,
+              "docs": 5394,
+              "seconds": 1.7803630999987945
+            },
+            {
+              "blocks": 15,
+              "bytes_written": 2650343,
+              "sim_peak": 1002305,
+              "tokens": 747359,
+              "shard": 1,
+              "docs": 5394,
+              "seconds": 1.8068414000008488
+            }
+          ],
+          "reducers": [
+            1.626683000009507,
+            1.6091853999969317
+          ],
+          "sim_peak": 1006294
+        },
+        {
+          "algorithm": "SPIMI x2 shards",
+          "budget": 1000000,
+          "blocks": 29,
+          "run_bytes": 5190122,
+          "bytes_written": 18088291,
+          "startup_s": 0.34696760000952054,
+          "invert_s": 2.218759300012607,
+          "merge_s": 1.7597825999982888,
+          "reduce_s": 1.6520960999914678,
+          "concat_s": 0.107686500006821,
+          "total_s": 3.978541900010896,
+          "shards": [
+            {
+              "blocks": 14,
+              "bytes_written": 2539779,
+              "sim_peak": 1006294,
+              "tokens": 720795,
+              "shard": 0,
+              "docs": 5394,
+              "seconds": 1.7947449999919627
+            },
+            {
+              "blocks": 15,
+              "bytes_written": 2650343,
+              "sim_peak": 1002305,
+              "tokens": 747359,
+              "shard": 1,
+              "docs": 5394,
+              "seconds": 1.8501339000067674
+            }
+          ],
+          "reducers": [
+            1.59187020000536,
+            1.5883937000035075
+          ],
+          "sim_peak": 1006294
+        },
+        {
+          "algorithm": "SPIMI x2 shards",
+          "budget": 1000000,
+          "blocks": 29,
+          "run_bytes": 5190122,
+          "bytes_written": 18088291,
+          "startup_s": 0.3740144000039436,
+          "invert_s": 2.480098400003044,
+          "merge_s": 1.9687189999967813,
+          "reduce_s": 1.8547088999912376,
+          "concat_s": 0.11401010000554379,
+          "total_s": 4.448817399999825,
+          "shards": [
+            {
+              "blocks": 14,
+              "bytes_written": 2539779,
+              "sim_peak": 1006294,
+              "tokens": 720795,
+              "shard": 0,
+              "docs": 5394,
+              "seconds": 2.0124747999943793
+            },
+            {
+              "blocks": 15,
+              "bytes_written": 2650343,
+              "sim_peak": 1002305,
+              "tokens": 747359,
+              "shard": 1,
+              "docs": 5394,
+              "seconds": 2.082854000007501
+            }
+          ],
+          "reducers": [
+            1.7925695000012638,
+            1.7650494999979855
+          ],
+          "sim_peak": 1006294
+        }
+      ],
+      "4": [
+        {
+          "algorithm": "SPIMI x4 shards",
+          "budget": 1000000,
+          "blocks": 30,
+          "run_bytes": 5194937,
+          "bytes_written": 18093106,
+          "startup_s": 0.5229894999938551,
+          "invert_s": 2.4026185999973677,
+          "merge_s": 1.7783214000082808,
+          "reduce_s": 1.6016111000062665,
+          "concat_s": 0.17671030000201426,
+          "total_s": 4.1809400000056485,
+          "shards": [
+            {
+              "blocks": 7,
+              "bytes_written": 1268335,
+              "sim_peak": 1006294,
+              "tokens": 359660,
+              "shard": 0,
+              "docs": 2697,
+              "seconds": 1.8432500999915646
+            },
+            {
+              "blocks": 7,
+              "bytes_written": 1272634,
+              "sim_peak": 1003487,
+              "tokens": 361135,
+              "shard": 1,
+              "docs": 2697,
+              "seconds": 1.7822427000064636
+            },
+            {
+              "blocks": 8,
+              "bytes_written": 1335296,
+              "sim_peak": 1002305,
+              "tokens": 375772,
+              "shard": 2,
+              "docs": 2697,
+              "seconds": 1.801688000006834
+            },
+            {
+              "blocks": 8,
+              "bytes_written": 1318672,
+              "sim_peak": 1006701,
+              "tokens": 371587,
+              "shard": 3,
+              "docs": 2697,
+              "seconds": 1.8336748000001535
+            }
+          ],
+          "reducers": [
+            1.4585804999951506,
+            1.3216523000010056,
+            1.4899356000096304,
+            1.4202920000097947
+          ],
+          "sim_peak": 1006701
+        },
+        {
+          "algorithm": "SPIMI x4 shards",
+          "budget": 1000000,
+          "blocks": 30,
+          "run_bytes": 5194937,
+          "bytes_written": 18093106,
+          "startup_s": 0.494290100003127,
+          "invert_s": 2.2878510000009555,
+          "merge_s": 1.7137796000024537,
+          "reduce_s": 1.5362241999973776,
+          "concat_s": 0.17755540000507608,
+          "total_s": 4.001630600003409,
+          "shards": [
+            {
+              "blocks": 7,
+              "bytes_written": 1268335,
+              "sim_peak": 1006294,
+              "tokens": 359660,
+              "shard": 0,
+              "docs": 2697,
+              "seconds": 1.7331541000021389
+            },
+            {
+              "blocks": 7,
+              "bytes_written": 1272634,
+              "sim_peak": 1003487,
+              "tokens": 361135,
+              "shard": 1,
+              "docs": 2697,
+              "seconds": 1.7285851999913575
+            },
+            {
+              "blocks": 8,
+              "bytes_written": 1335296,
+              "sim_peak": 1002305,
+              "tokens": 375772,
+              "shard": 2,
+              "docs": 2697,
+              "seconds": 1.7452596999937668
+            },
+            {
+              "blocks": 8,
+              "bytes_written": 1318672,
+              "sim_peak": 1006701,
+              "tokens": 371587,
+              "shard": 3,
+              "docs": 2697,
+              "seconds": 1.758385900000576
+            }
+          ],
+          "reducers": [
+            1.4453814000007696,
+            1.3589118999952916,
+            1.2369594000047073,
+            1.2479925000079675
+          ],
+          "sim_peak": 1006701
+        },
+        {
+          "algorithm": "SPIMI x4 shards",
+          "budget": 1000000,
+          "blocks": 30,
+          "run_bytes": 5194937,
+          "bytes_written": 18093106,
+          "startup_s": 0.4597666999907233,
+          "invert_s": 2.138278699989314,
+          "merge_s": 1.634834000011324,
+          "reduce_s": 1.4246313000039663,
+          "concat_s": 0.21020270000735763,
+          "total_s": 3.773112700000638,
+          "shards": [
+            {
+              "blocks": 7,
+              "bytes_written": 1268335,
+              "sim_peak": 1006294,
+              "tokens": 359660,
+              "shard": 0,
+              "docs": 2697,
+              "seconds": 1.484883400000399
+            },
+            {
+              "blocks": 7,
+              "bytes_written": 1272634,
+              "sim_peak": 1003487,
+              "tokens": 361135,
+              "shard": 1,
+              "docs": 2697,
+              "seconds": 1.525775900008739
+            },
+            {
+              "blocks": 8,
+              "bytes_written": 1335296,
+              "sim_peak": 1002305,
+              "tokens": 375772,
+              "shard": 2,
+              "docs": 2697,
+              "seconds": 1.5449984000006225
+            },
+            {
+              "blocks": 8,
+              "bytes_written": 1318672,
+              "sim_peak": 1006701,
+              "tokens": 371587,
+              "shard": 3,
+              "docs": 2697,
+              "seconds": 1.6276866999978665
+            }
+          ],
+          "reducers": [
+            1.2976102999964496,
+            1.3180856999970274,
+            1.1951907999900868,
+            1.2535743000044022
+          ],
+          "sim_peak": 1006701
+        }
+      ]
+    },
+    "4000000": {
+      "sequential": [
+        {
+          "blocks": 6,
+          "bytes_written": 11045044,
+          "sim_peak": 4002832,
+          "tokens": 1468154,
+          "algorithm": "SPIMI",
+          "budget": 4000000,
+          "invert_s": 3.644378400000278,
+          "merge_s": 2.1141086999996332,
+          "total_s": 5.758487099999911,
+          "run_bytes": 4327203,
+          "final_bytes": 6717841
+        },
+        {
+          "blocks": 6,
+          "bytes_written": 11045044,
+          "sim_peak": 4002832,
+          "tokens": 1468154,
+          "algorithm": "SPIMI",
+          "budget": 4000000,
+          "invert_s": 3.4273089000053005,
+          "merge_s": 1.8629228999925544,
+          "total_s": 5.290231799997855,
+          "run_bytes": 4327203,
+          "final_bytes": 6717841
+        },
+        {
+          "blocks": 6,
+          "bytes_written": 11045044,
+          "sim_peak": 4002832,
+          "tokens": 1468154,
+          "algorithm": "SPIMI",
+          "budget": 4000000,
+          "invert_s": 3.41375269999844,
+          "merge_s": 1.956657400005497,
+          "total_s": 5.370410100003937,
+          "run_bytes": 4327203,
+          "final_bytes": 6717841
+        }
+      ],
+      "2": [
+        {
+          "algorithm": "SPIMI x2 shards",
+          "budget": 4000000,
+          "blocks": 6,
+          "run_bytes": 4328215,
+          "bytes_written": 17226384,
+          "startup_s": 0.36100629999418743,
+          "invert_s": 2.488572899994324,
+          "merge_s": 1.6789980000030482,
+          "reduce_s": 1.5381047000118997,
+          "concat_s": 0.14089329999114852,
+          "total_s": 4.167570899997372,
+          "shards": [
+            {
+              "blocks": 3,
+              "bytes_written": 2128776,
+              "sim_peak": 4002832,
+              "tokens": 720795,
+              "shard": 0,
+              "docs": 5394,
+              "seconds": 2.0481322999985423
+            },
+            {
+              "blocks": 3,
+              "bytes_written": 2199439,
+              "sim_peak": 4002496,
+              "tokens": 747359,
+              "shard": 1,
+              "docs": 5394,
+              "seconds": 2.1067347999924095
+            }
+          ],
+          "reducers": [
+            1.4726888000004692,
+            1.4278220999985933
+          ],
+          "sim_peak": 4002832
+        },
+        {
+          "algorithm": "SPIMI x2 shards",
+          "budget": 4000000,
+          "blocks": 6,
+          "run_bytes": 4328215,
+          "bytes_written": 17226384,
+          "startup_s": 0.41164109999954235,
+          "invert_s": 2.5522466999973403,
+          "merge_s": 1.44129659999453,
+          "reduce_s": 1.333857799996622,
+          "concat_s": 0.10743879999790806,
+          "total_s": 3.9935432999918703,
+          "shards": [
+            {
+              "blocks": 3,
+              "bytes_written": 2128776,
+              "sim_peak": 4002832,
+              "tokens": 720795,
+              "shard": 0,
+              "docs": 5394,
+              "seconds": 2.067383300003712
+            },
+            {
+              "blocks": 3,
+              "bytes_written": 2199439,
+              "sim_peak": 4002496,
+              "tokens": 747359,
+              "shard": 1,
+              "docs": 5394,
+              "seconds": 2.1259172999998555
+            }
+          ],
+          "reducers": [
+            1.2725525999994716,
+            1.2279067000054056
+          ],
+          "sim_peak": 4002832
+        },
+        {
+          "algorithm": "SPIMI x2 shards",
+          "budget": 4000000,
+          "blocks": 6,
+          "run_bytes": 4328215,
+          "bytes_written": 17226384,
+          "startup_s": 0.3800714000099106,
+          "invert_s": 2.495768400011002,
+          "merge_s": 1.3071327999932691,
+          "reduce_s": 1.1921605999959866,
+          "concat_s": 0.11497219999728259,
+          "total_s": 3.8029012000042712,
+          "shards": [
+            {
+              "blocks": 3,
+              "bytes_written": 2128776,
+              "sim_peak": 4002832,
+              "tokens": 720795,
+              "shard": 0,
+              "docs": 5394,
+              "seconds": 2.0386774000071455
+            },
+            {
+              "blocks": 3,
+              "bytes_written": 2199439,
+              "sim_peak": 4002496,
+              "tokens": 747359,
+              "shard": 1,
+              "docs": 5394,
+              "seconds": 2.0796008000033908
+            }
+          ],
+          "reducers": [
+            1.128610600004322,
+            1.0906584000040311
+          ],
+          "sim_peak": 4002832
+        }
+      ],
+      "4": [
+        {
+          "algorithm": "SPIMI x4 shards",
+          "budget": 4000000,
+          "blocks": 8,
+          "run_bytes": 4431348,
+          "bytes_written": 17329517,
+          "startup_s": 0.4379130000015721,
+          "invert_s": 2.0729617000033613,
+          "merge_s": 1.3073815999960061,
+          "reduce_s": 1.147732299999916,
+          "concat_s": 0.15964929999609012,
+          "total_s": 3.3803432999993674,
+          "shards": [
+            {
+              "blocks": 2,
+              "bytes_written": 1087165,
+              "sim_peak": 4002832,
+              "tokens": 359660,
+              "shard": 0,
+              "docs": 2697,
+              "seconds": 1.554688600008376
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1092488,
+              "sim_peak": 4002056,
+              "tokens": 361135,
+              "shard": 1,
+              "docs": 2697,
+              "seconds": 1.5836526999919442
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1130161,
+              "sim_peak": 4002496,
+              "tokens": 375772,
+              "shard": 2,
+              "docs": 2697,
+              "seconds": 1.5567961000051582
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1121534,
+              "sim_peak": 4000774,
+              "tokens": 371587,
+              "shard": 3,
+              "docs": 2697,
+              "seconds": 1.58499319999828
+            }
+          ],
+          "reducers": [
+            0.9307485000026645,
+            1.055046699999366,
+            1.0292907999973977,
+            0.9238832000119146
+          ],
+          "sim_peak": 4002832
+        },
+        {
+          "algorithm": "SPIMI x4 shards",
+          "budget": 4000000,
+          "blocks": 8,
+          "run_bytes": 4431348,
+          "bytes_written": 17329517,
+          "startup_s": 0.48779829998966306,
+          "invert_s": 2.057683699997142,
+          "merge_s": 1.2764686000009533,
+          "reduce_s": 1.0343925000051968,
+          "concat_s": 0.24207609999575652,
+          "total_s": 3.3341522999980953,
+          "shards": [
+            {
+              "blocks": 2,
+              "bytes_written": 1087165,
+              "sim_peak": 4002832,
+              "tokens": 359660,
+              "shard": 0,
+              "docs": 2697,
+              "seconds": 1.4823236999945948
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1092488,
+              "sim_peak": 4002056,
+              "tokens": 361135,
+              "shard": 1,
+              "docs": 2697,
+              "seconds": 1.5026919999945676
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1130161,
+              "sim_peak": 4002496,
+              "tokens": 375772,
+              "shard": 2,
+              "docs": 2697,
+              "seconds": 1.5344241999991937
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1121534,
+              "sim_peak": 4000774,
+              "tokens": 371587,
+              "shard": 3,
+              "docs": 2697,
+              "seconds": 1.5509151000005659
+            }
+          ],
+          "reducers": [
+            0.9225957999879029,
+            0.9335235000035027,
+            0.9371639000019059,
+            0.8604259999992792
+          ],
+          "sim_peak": 4002832
+        },
+        {
+          "algorithm": "SPIMI x4 shards",
+          "budget": 4000000,
+          "blocks": 8,
+          "run_bytes": 4431348,
+          "bytes_written": 17329517,
+          "startup_s": 0.4724278000066988,
+          "invert_s": 2.086898299996392,
+          "merge_s": 1.2018505000014557,
+          "reduce_s": 1.031638300002669,
+          "concat_s": 0.17021219999878667,
+          "total_s": 3.2887487999978475,
+          "shards": [
+            {
+              "blocks": 2,
+              "bytes_written": 1087165,
+              "sim_peak": 4002832,
+              "tokens": 359660,
+              "shard": 0,
+              "docs": 2697,
+              "seconds": 1.5916719999950146
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1092488,
+              "sim_peak": 4002056,
+              "tokens": 361135,
+              "shard": 1,
+              "docs": 2697,
+              "seconds": 1.553698899995652
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1130161,
+              "sim_peak": 4002496,
+              "tokens": 375772,
+              "shard": 2,
+              "docs": 2697,
+              "seconds": 1.5951433000009274
+            },
+            {
+              "blocks": 2,
+              "bytes_written": 1121534,
+              "sim_peak": 4000774,
+              "tokens": 371587,
+              "shard": 3,
+              "docs": 2697,
+              "seconds": 1.5049092000117525
+            }
+          ],
+          "reducers": [
+            0.9338055999978678,
+            0.8920055000053253,
+            0.8710973999986891,
+            0.8567213999922387
+          ],
+          "sim_peak": 4002832
+        }
+      ]
+    }
+  }
+}

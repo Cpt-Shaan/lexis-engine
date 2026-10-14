@@ -1,0 +1,19 @@
+{
+  "num_docs": 10788,
+  "num_terms": 30952,
+  "num_tokens": 1468154,
+  "num_postings": 822333,
+  "bytes": {
+    "postings_pos": 3552920,
+    "postings_doc": 2627396,
+    "dict": 305404,
+    "dict_parts": {
+      "terms": 165429,
+      "block_pointers": 7738,
+      "metadata": 132139
+    }
+  },
+  "built_with": "spimi-parallel-4",
+  "budget": 4000000,
+  "merged": true
+}

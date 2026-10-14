@@ -1,0 +1,448 @@
+{
+  "skips": [
+    {
+      "pair": "bank AND rate",
+      "len1": 1338,
+      "len2": 879,
+      "result": 405,
+      "no_skips": 3213,
+      "sqrt": 3251,
+      "4": 3390,
+      "16": 3309,
+      "64": 3237
+    },
+    {
+      "pair": "oil AND opec",
+      "len1": 1038,
+      "len2": 126,
+      "result": 120,
+      "no_skips": 1932,
+      "sqrt": 1958,
+      "4": 1015,
+      "16": 1727,
+      "64": 1945
+    },
+    {
+      "pair": "trade AND deficit",
+      "len1": 1117,
+      "len2": 378,
+      "result": 250,
+      "no_skips": 2236,
+      "sqrt": 2268,
+      "4": 2054,
+      "16": 2300,
+      "64": 2253
+    },
+    {
+      "pair": "wheat AND export",
+      "len1": 327,
+      "len2": 594,
+      "result": 122,
+      "no_skips": 1474,
+      "sqrt": 1506,
+      "4": 1520,
+      "16": 1516,
+      "64": 1486
+    },
+    {
+      "pair": "dollar AND yen",
+      "len1": 590,
+      "len2": 318,
+      "result": 194,
+      "no_skips": 1232,
+      "sqrt": 1259,
+      "4": 1247,
+      "16": 1264,
+      "64": 1241
+    },
+    {
+      "pair": "stock AND split",
+      "len1": 1388,
+      "len2": 323,
+      "result": 259,
+      "no_skips": 2637,
+      "sqrt": 2596,
+      "4": 1960,
+      "16": 2475,
+      "64": 2655
+    },
+    {
+      "pair": "interest AND rates",
+      "len1": 839,
+      "len2": 563,
+      "result": 289,
+      "no_skips": 1937,
+      "sqrt": 1966,
+      "4": 2020,
+      "16": 1992,
+      "64": 1952
+    },
+    {
+      "pair": "gold AND silver",
+      "len1": 229,
+      "len2": 62,
+      "result": 49,
+      "no_skips": 435,
+      "sqrt": 453,
+      "4": 390,
+      "16": 449,
+      "64": 438
+    },
+    {
+      "pair": "said AND tanker",
+      "len1": 6784,
+      "len2": 35,
+      "result": 33,
+      "no_skips": 13263,
+      "sqrt": 3708,
+      "4": 2001,
+      "16": 1430,
+      "64": 3041
+    },
+    {
+      "pair": "company AND coffee",
+      "len1": 2543,
+      "len2": 159,
+      "result": 8,
+      "no_skips": 5372,
+      "sqrt": 4852,
+      "4": 2356,
+      "16": 3698,
+      "64": 5288
+    },
+    {
+      "pair": "mln AND dlrs",
+      "len1": 4849,
+      "len2": 4226,
+      "result": 2933,
+      "no_skips": 9349,
+      "sqrt": 9394,
+      "4": 9952,
+      "16": 9562,
+      "64": 9393
+    },
+    {
+      "pair": "the AND cocoa",
+      "len1": 6951,
+      "len2": 78,
+      "result": 71,
+      "no_skips": 13745,
+      "sqrt": 7253,
+      "4": 2456,
+      "16": 2678,
+      "64": 6248
+    }
+  ],
+  "sizes": {
+    "plain_raw": 3289332,
+    "plain_vb": 982728,
+    "plain_tf_raw": 6578664,
+    "plain_tf_vb": 1805063,
+    "pos_raw": 12451280,
+    "pos_vb": 3552920,
+    "zone_vb": 2627396
+  },
+  "boolean": [
+    {
+      "id": "b01",
+      "query": "oil AND opec",
+      "type": "boolean",
+      "n": 120,
+      "expected": 120,
+      "pass": true,
+      "index_ms": 1.334339997265488,
+      "brute_ms": 10.02669999434147
+    },
+    {
+      "id": "b02",
+      "query": "wheat AND corn AND NOT soviet",
+      "type": "boolean",
+      "n": 66,
+      "expected": 66,
+      "pass": true,
+      "index_ms": 0.8594599989010021,
+      "brute_ms": 9.341700002551079
+    },
+    {
+      "id": "b03",
+      "query": "(gold OR silver) AND price",
+      "type": "boolean",
+      "n": 44,
+      "expected": 44,
+      "pass": true,
+      "index_ms": 1.2843200005590916,
+      "brute_ms": 17.646100008278154
+    },
+    {
+      "id": "b04",
+      "query": "bank AND NOT (dollar OR yen)",
+      "type": "boolean",
+      "n": 1031,
+      "expected": 1031,
+      "pass": true,
+      "index_ms": 2.25782000052277,
+      "brute_ms": 11.87940000090748
+    },
+    {
+      "id": "b05",
+      "query": "tanker AND (gulf OR iran)",
+      "type": "boolean",
+      "n": 26,
+      "expected": 26,
+      "pass": true,
+      "index_ms": 0.3998000000137836,
+      "brute_ms": 9.300399993662722
+    },
+    {
+      "id": "b06",
+      "query": "coffee AND (brazil OR colombia) AND quota",
+      "type": "boolean",
+      "n": 29,
+      "expected": 29,
+      "pass": true,
+      "index_ms": 0.6236199988052249,
+      "brute_ms": 9.549899987177923
+    },
+    {
+      "id": "b07",
+      "query": "sugar AND NOT export",
+      "type": "boolean",
+      "n": 149,
+      "expected": 149,
+      "pass": true,
+      "index_ms": 0.6682400009594858,
+      "brute_ms": 9.704000010970049
+    },
+    {
+      "id": "b08",
+      "query": "merger OR takeover",
+      "type": "boolean",
+      "n": 589,
+      "expected": 589,
+      "pass": true,
+      "index_ms": 0.6506000005174428,
+      "brute_ms": 12.497799994889647
+    },
+    {
+      "id": "b09",
+      "query": "dividend AND NOT quarterly",
+      "type": "boolean",
+      "n": 514,
+      "expected": 514,
+      "pass": true,
+      "index_ms": 0.6669199996395037,
+      "brute_ms": 10.11119999748189
+    },
+    {
+      "id": "b10",
+      "query": "steel AND (japan OR korea) AND import",
+      "type": "boolean",
+      "n": 5,
+      "expected": 5,
+      "pass": true,
+      "index_ms": 1.1437000008299947,
+      "brute_ms": 9.710400001495145
+    },
+    {
+      "id": "b11",
+      "query": "\"interest rates\"",
+      "type": "phrase",
+      "n": 239,
+      "expected": 239,
+      "pass": true,
+      "index_ms": 1.4654800004791468,
+      "brute_ms": 147.64900000591297
+    },
+    {
+      "id": "b12",
+      "query": "\"trade deficit\"",
+      "type": "phrase",
+      "n": 173,
+      "expected": 173,
+      "pass": true,
+      "index_ms": 1.5599400008795783,
+      "brute_ms": 149.47699999902397
+    },
+    {
+      "id": "b13",
+      "query": "\"federal reserve\"",
+      "type": "phrase",
+      "n": 215,
+      "expected": 215,
+      "pass": true,
+      "index_ms": 1.1635400005616248,
+      "brute_ms": 156.45670000230893
+    },
+    {
+      "id": "b14",
+      "query": "\"central bank\"",
+      "type": "phrase",
+      "n": 326,
+      "expected": 326,
+      "pass": true,
+      "index_ms": 1.9243999995524064,
+      "brute_ms": 158.55439999722876
+    },
+    {
+      "id": "b15",
+      "query": "\"crude oil\"",
+      "type": "phrase",
+      "n": 231,
+      "expected": 231,
+      "pass": true,
+      "index_ms": 1.5661599987652153,
+      "brute_ms": 159.4221999985166
+    },
+    {
+      "id": "b16",
+      "query": "\"bank of japan\"",
+      "type": "phrase",
+      "n": 126,
+      "expected": 126,
+      "pass": true,
+      "index_ms": 21.21323999890592,
+      "brute_ms": 157.69919999002013
+    },
+    {
+      "id": "b17",
+      "query": "\"stock split\"",
+      "type": "phrase",
+      "n": 234,
+      "expected": 234,
+      "pass": true,
+      "index_ms": 1.5347599983215332,
+      "brute_ms": 159.3828999903053
+    },
+    {
+      "id": "b18",
+      "query": "econom*",
+      "type": "wildcard",
+      "n": 872,
+      "expected": 872,
+      "pass": true,
+      "index_ms": 1.6122600005473942,
+      "brute_ms": 162.15660001034848
+    },
+    {
+      "id": "b19",
+      "query": "agricultur*",
+      "type": "wildcard",
+      "n": 568,
+      "expected": 568,
+      "pass": true,
+      "index_ms": 0.6018800020683557,
+      "brute_ms": 177.06190000171773
+    },
+    {
+      "id": "b20",
+      "query": "*port",
+      "type": "wildcard",
+      "n": 1639,
+      "expected": 1639,
+      "pass": true,
+      "index_ms": 2.234719999250956,
+      "brute_ms": 169.7105999919586
+    },
+    {
+      "id": "b21",
+      "query": "pet*chem*",
+      "type": "wildcard",
+      "n": 23,
+      "expected": 23,
+      "pass": true,
+      "index_ms": 0.1664399984292686,
+      "brute_ms": 180.6382999930065
+    },
+    {
+      "id": "b22",
+      "query": "economy /5 growth",
+      "type": "proximity",
+      "n": 16,
+      "expected": 16,
+      "pass": true,
+      "index_ms": 0.9761399996932596,
+      "brute_ms": 108.70599999907427
+    },
+    {
+      "id": "b23",
+      "query": "oil /3 price",
+      "type": "proximity",
+      "n": 76,
+      "expected": 76,
+      "pass": true,
+      "index_ms": 2.277820001472719,
+      "brute_ms": 111.58860000432469
+    },
+    {
+      "id": "b24",
+      "query": "dollar /4 yen",
+      "type": "proximity",
+      "n": 93,
+      "expected": 93,
+      "pass": true,
+      "index_ms": 1.0988399997586384,
+      "brute_ms": 112.17389999364968
+    },
+    {
+      "id": "b25",
+      "query": "interest /2 rates",
+      "type": "proximity",
+      "n": 245,
+      "expected": 245,
+      "pass": true,
+      "index_ms": 1.4008199999807402,
+      "brute_ms": 109.12029999599326
+    }
+  ],
+  "spelling": {
+    "2": {
+      "top1": 59,
+      "top3": 60,
+      "ms": 6.516283333379154,
+      "fails": [
+        [
+          "prokkects",
+          "projects",
+          [
+            "prospects",
+            "projects",
+            "propects"
+          ]
+        ]
+      ],
+      "one_typo": 50,
+      "two_typo": 9,
+      "size": {
+        "grams": 912,
+        "postings": 238653
+      }
+    },
+    "3": {
+      "top1": 58,
+      "top3": 59,
+      "ms": 0.9695333334093448,
+      "fails": [
+        [
+          "prokkects",
+          "projects",
+          [
+            "prospects",
+            "projects",
+            "propects"
+          ]
+        ],
+        [
+          "deetalis",
+          "details",
+          []
+        ]
+      ],
+      "one_typo": 50,
+      "two_typo": 8,
+      "size": {
+        "grams": 10578,
+        "postings": 209641
+      }
+    }
+  }
+}
